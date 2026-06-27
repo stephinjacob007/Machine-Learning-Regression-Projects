@@ -12,7 +12,13 @@ Our findings indicate that **HIV/AIDS prevalence**, **Income Composition of Reso
 ---
 
 ## 📊 Dataset & Features
-The model operates on a heavily curated dataset comprising 2,928 samples across 22 primary features spanning the years 2000–2015. 
+The model operates on a heavily curated dataset comprising 2,928 samples across 22 primary features spanning the years 2000–2015.
+
+Dataset Used: Lifespan Dataset
+
+Source: Kaggle
+
+Dataset: https://www.kaggle.com/datasets/victoria1199/lifespan-prediction
 
 ### Key Feature Engineering:
 * **Log Transformations:** Applied to highly skewed features (`gdp`, `population`, `percentage_expenditure`, `measles`) to improve linear relationships.
