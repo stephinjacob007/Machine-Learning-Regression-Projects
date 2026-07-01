@@ -27,6 +27,10 @@ Instead of directly training a single model, three Linear Regression models were
 
 The dataset contains **500 residential properties** with **11 features** after removing the ID column.
 
+Dataset Source: Kaggle
+
+Dataset Link: https://www.kaggle.com/datasets/denkuznetz/housing-prices-regression?select=real_estate_dataset.csv
+
 | Feature | Description |
 |----------|-------------|
 | Square_Feet | Area of the house |
@@ -122,7 +126,7 @@ The target variable (Price) follows an approximately normal distribution with a 
 
 > **Recommended Image**
 >
-> `images/price_distribution.png`
+> `Images/price_distribution.png`
 
 ---
 
@@ -140,7 +144,7 @@ A correlation heatmap was generated to identify the relationship between numeric
 
 > **Recommended Image**
 >
-> `images/correlation_heatmap.png`
+> `Images/Correlation_Heatmap.png`
 
 ---
 
@@ -173,6 +177,8 @@ Outliers were detected using the **Interquartile Range (IQR)** method.
 Result:
 
 - Only **1 outlier** was detected in the Price column.
+
+- `Images/outliers.png`
 
 ---
 
@@ -335,16 +341,14 @@ These observations indicate that the regression model fits the dataset well.
 ```
 House-Price-Prediction/
 │
-├── dataset/
-│   └── real_estate_dataset.csv
+├── Images/
+│   ├── outliers.png
+│   ├── Correlation_Heatmap.png
+│   └── result_dataframe.png
 │
-├── images/
-│   ├── price_distribution.png
-│   ├── correlation_heatmap.png
-│   └── residual_plot.png
+├── real_estate.ipynb
 │
-├── notebooks/
-│   └── House_Price_Prediction.ipynb
+├── real_estate_dataset.csv
 │
 ├── requirements.txt
 │
